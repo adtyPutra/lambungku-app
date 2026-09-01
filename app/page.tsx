@@ -73,25 +73,25 @@ export default function Home() {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '24px' }}>
 
           <div className="card feature-card animate-in delay-1">
-            <div style={{ color: 'var(--primary)', marginBottom: '16px' }}><Brain size={32} /></div>
+            <div style={{ background: 'var(--primary)', color: 'white', padding: '14px', borderRadius: '16px', display: 'inline-flex', marginBottom: '20px', boxShadow: '0 8px 16px rgba(16, 185, 129, 0.2)' }}><Brain size={28} /></div>
             <h3 style={{ marginBottom: '8px' }}>Forward Chaining</h3>
             <p style={{ fontSize: '0.875rem' }}>Menggunakan metode inferensi Forward Chaining yang terbukti akurat dalam mencocokkan gejala dengan penyakit.</p>
           </div>
 
           <div className="card feature-card animate-in delay-2">
-            <div style={{ color: 'var(--primary)', marginBottom: '16px' }}><Zap size={32} /></div>
+            <div style={{ background: 'var(--primary)', color: 'white', padding: '14px', borderRadius: '16px', display: 'inline-flex', marginBottom: '20px', boxShadow: '0 8px 16px rgba(16, 185, 129, 0.2)' }}><Zap size={28} /></div>
             <h3 style={{ marginBottom: '8px' }}>Hasil Instan</h3>
             <p style={{ fontSize: '0.875rem' }}>Dapatkan hasil diagnosis lengkap beserta deskripsi penyakit, penyebab, dan solusi penanganan dalam hitungan detik.</p>
           </div>
 
           <div className="card feature-card animate-in delay-3">
-            <div style={{ color: 'var(--primary)', marginBottom: '16px' }}><BarChart size={32} /></div>
+            <div style={{ background: 'var(--primary)', color: 'white', padding: '14px', borderRadius: '16px', display: 'inline-flex', marginBottom: '20px', boxShadow: '0 8px 16px rgba(16, 185, 129, 0.2)' }}><BarChart size={28} /></div>
             <h3 style={{ marginBottom: '8px' }}>Persentase Akurasi</h3>
             <p style={{ fontSize: '0.875rem' }}>Setiap hasil diagnosis dilengkapi dengan persentase kecocokan untuk membantu Anda memahami tingkat keyakinan sistem.</p>
           </div>
 
           <div className="card feature-card animate-in delay-4">
-            <div style={{ color: 'var(--primary)', marginBottom: '16px' }}><History size={32} /></div>
+            <div style={{ background: 'var(--primary)', color: 'white', padding: '14px', borderRadius: '16px', display: 'inline-flex', marginBottom: '20px', boxShadow: '0 8px 16px rgba(16, 185, 129, 0.2)' }}><History size={28} /></div>
             <h3 style={{ marginBottom: '8px' }}>Riwayat Diagnosa</h3>
             <p style={{ fontSize: '0.875rem' }}>Simpan dan pantau seluruh riwayat hasil diagnosis Anda sebelumnya untuk melihat perkembangan kesehatan lambung secara berkala.</p>
           </div>
