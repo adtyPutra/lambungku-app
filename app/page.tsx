@@ -111,7 +111,7 @@ export default function Home() {
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '32px' }}>
             <div className="card animate-in delay-2" style={{ border: 'none', borderRadius: '16px', overflow: 'hidden', padding: 0, boxShadow: '0 10px 25px -5px rgba(0, 0, 0, 0.05)' }}>
-              <img src="/icon_makan.jpg" alt="Makan Teratur" style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
+              <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=800&q=80" alt="Makan Teratur" style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
               <div style={{ padding: '24px' }}>
                 <h3 style={{ fontSize: '1.25rem', marginBottom: '12px', color: 'var(--primary)' }}>Makan Teratur</h3>
                 <p style={{ fontSize: '0.95rem' }}>Jangan melewatkan waktu makan. Pola makan yang tidak teratur membuat lambung memproduksi asam berlebih yang dapat mengiritasi dinding lambung Anda.</p>
@@ -119,7 +119,7 @@ export default function Home() {
             </div>
 
             <div className="card animate-in delay-3" style={{ border: 'none', borderRadius: '16px', overflow: 'hidden', padding: 0, boxShadow: '0 10px 25px -5px rgba(0, 0, 0, 0.05)' }}>
-              <img src="/icon_stres.jpg" alt="Hindari Stres" style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
+              <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=800&q=80" alt="Hindari Stres" style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
               <div style={{ padding: '24px' }}>
                 <h3 style={{ fontSize: '1.25rem', marginBottom: '12px', color: 'var(--primary)' }}>Kelola Stres</h3>
                 <p style={{ fontSize: '0.95rem' }}>Stres berlebihan dapat memicu peningkatan produksi asam lambung secara tiba-tiba, yang berujung pada rasa nyeri dan sensasi terbakar di area dada.</p>
@@ -127,7 +127,7 @@ export default function Home() {
             </div>
 
             <div className="card animate-in delay-4" style={{ border: 'none', borderRadius: '16px', overflow: 'hidden', padding: 0, boxShadow: '0 10px 25px -5px rgba(0, 0, 0, 0.05)' }}>
-              <img src="/icon_makanan.jpg" alt="Pilih Makanan yang Tepat" style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
+              <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=80" alt="Pilih Makanan yang Tepat" style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
               <div style={{ padding: '24px' }}>
                 <h3 style={{ fontSize: '1.25rem', marginBottom: '12px', color: 'var(--primary)' }}>Pilih Makanan Sehat</h3>
                 <p style={{ fontSize: '0.95rem' }}>Kurangi konsumsi makanan terlalu pedas, asam, atau berlemak tinggi. Perbanyak minum air putih dan hindari minuman berkafein saat perut kosong.</p>
