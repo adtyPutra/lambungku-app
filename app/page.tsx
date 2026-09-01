@@ -91,9 +91,9 @@ export default function Home() {
           </div>
 
           <div className="card feature-card animate-in delay-4">
-            <div style={{ color: 'var(--primary)', marginBottom: '16px' }}><ShieldCheck size={32} /></div>
-            <h3 style={{ marginBottom: '8px' }}>Panel Admin</h3>
-            <p style={{ fontSize: '0.875rem' }}>Kelola knowledge base penyakit dan gejala secara real-time melalui dashboard admin yang lengkap dan aman.</p>
+            <div style={{ color: 'var(--primary)', marginBottom: '16px' }}><History size={32} /></div>
+            <h3 style={{ marginBottom: '8px' }}>Riwayat Diagnosa</h3>
+            <p style={{ fontSize: '0.875rem' }}>Simpan dan pantau seluruh riwayat hasil diagnosis Anda sebelumnya untuk melihat perkembangan kesehatan lambung secara berkala.</p>
           </div>
 
         </div>
