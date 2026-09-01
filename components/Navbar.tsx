@@ -157,7 +157,7 @@ export default function Navbar({ activePage }: NavbarProps) {
             </>
           ) : (
             <Link href="/login" className="navbar-link" style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
-              <LogIn size={16} /> Masuk
+              <LogIn size={18} strokeWidth={2.5} /> Masuk
             </Link>
           )}
         </div>
